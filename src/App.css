@@ -32,7 +32,51 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.footer{
+  position: absolute;
+  top: 100vh;
+  width: 100%;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+
+.todo-content {
+  flex: 1;
+}
+
+.title-container {
+  text-align: center;
+}
+
+.title-line {
+  width: 50%;
+  margin: 10px auto;
+  border-top: 1px solid #ccc;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.delete-button:hover {
+  background-color: darkred;
 }
